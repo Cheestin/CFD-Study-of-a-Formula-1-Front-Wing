@@ -1,0 +1,4 @@
+Mesh,Cell Count,Downforce (N),Drag Force (N)
+Coarse,192233,1472.64,486.514
+Baseline,749755,1538.71,464.231
+Fine,921240,1553.97,446.037
