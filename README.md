@@ -32,7 +32,7 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 
 ## Repository Structure
 - `cad/` — Fusion 360 file and per-angle STEP exports
-- `meshing/` — mesh settings, BOI orientation, Mesh Cross sections
+- `meshing/` — mesh settings, Body Of Influence orientations, Mesh Cross sections
 - `results/` — raw data, mesh-independence analysis data, lift-drag plots, flow visualizations
 - `notes/` — troubleshooting and debugging log
 
