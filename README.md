@@ -5,7 +5,7 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 
 [One-paragraph hook: what you did, what you found, the headline number]
 
-![CL-CD Polar](results/cl_cd_polar.png)
+![CL-CD Polar](results/Cl_Cd_polar.png)
 
 ## Key Finding
 [2-3 sentences: the slope-halving result, framed as the answer to a specific question]
