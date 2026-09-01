@@ -28,14 +28,13 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 [Table: angle, CL, CD, L/D — the same 6-row table from your report]
 
 ## Full Report
-📄 [Read the full report](report/F1_Front_Wing_CFD_Report.pdf)
+📄 [Read the full report here](report/F1_Front_Wing_CFD_Report.pdf)
 
 ## Repository Structure
-- `cad/` — Fusion 360 source and per-angle STEP exports
-- `mesh-setup/` — meshing settings summary
-- `mesh-independence/` — mesh convergence study data
-- `results/` — raw data, charts, flow visualizations
-- `notes/troubleshooting-log.md` — meshing/setup debugging log
+- `cad/` — Fusion 360 file and per-angle STEP exports
+- `meshing/` — mesh settings, BOI orientation, Mesh Cross sections
+- `results/` — raw data, mesh-independence analysis data, lift-drag plots, flow visualizations
+- `notes/` — troubleshooting and debugging log
 
 ## Notes on Method & Limitations
 [2-3 sentences: student license 1M-cell constraint, mesh independence caveat on drag, ride height fixed]
