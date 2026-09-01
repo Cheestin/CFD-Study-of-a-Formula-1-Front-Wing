@@ -11,7 +11,7 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
       <img src="Results/Cl_Cd_polar.png" alt="CL-CD Polar" width="500">
     </td>
     <td align="center">
-      <img src="CAD/Final CAD W16 Front Wing Base Model.png" alt="Pressure Contours" width="500">
+      <img src="CAD/Final CAD W16 Front Wing Base Model.PNG" alt="Pressure Contours" width="500">
     </td>
   </tr>
 </table>
