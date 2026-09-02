@@ -1,4 +1,3 @@
-<img width="545" height="229" alt="image" src="https://github.com/user-attachments/assets/c73064e4-0443-4701-9648-2cd4290e2552" /># CFD-Study-of-a-Formula-1-Front-Wing
 A short CFD study in ANSYS of the effects of front wing flap angle on aerodynamic forces, modelled with inspiration from a W16 Mercedes F1 Car.
 
 # CFD Study of an F1 Front Wing, Investigating the Relationship Between Flap Angle & Aerodynamic Forces
@@ -27,7 +26,7 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 ## Results Summary
 
 | Flap Angle | Lift | Drag | CL | CD |
-|------------|----|----|-----|
+|------------:|----:|----:|-----:|
 | 0°         | 1538.71 |	464.23 |	0.55 |	0.166 |
 | 5°         | 1936.37	| 602.28 |	0.69 |	0.216 |
 | 10°         | 2354.06 |	825.94 |	0.84 |	0.296 |
