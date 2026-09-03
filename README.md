@@ -35,7 +35,7 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 | 15°         | 2845.84 |	1009.92 |	1.02 |	0.362 |
 | 20°         | 3097.13 |	1165.16 |	1.11 |	0.417 |
 | 25°         | 3341.50 |	1288.50 |	1.20 |	0.462 |
-    </td>
+      </td>
     <td valign="top" width="50%">
 <img src="Results/Cl_Cd_polar.png" width="100%">
 
