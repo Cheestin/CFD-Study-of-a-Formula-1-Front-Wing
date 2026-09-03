@@ -24,7 +24,9 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 - Tools: Fusion 360, ANSYS SpaceClaim, ANSYS Meshing, ANSYS Fluent (Student license)
 
 ## Results Summary
-
+<table>
+  <tr>
+    <td valign="top" width="50%">
 | Flap Angle | Lift | Drag | CL | CD |
 |:------------|----:|----:|-----:|-----:|
 | 0°         | 1538.71 |	464.23 |	0.55 |	0.166 |
@@ -33,6 +35,13 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 | 15°         | 2845.84 |	1009.92 |	1.02 |	0.362 |
 | 20°         | 3097.13 |	1165.16 |	1.11 |	0.417 |
 | 25°         | 3341.50 |	1288.50 |	1.20 |	0.462 |
+     </td>
+    <td valign="top" width="50%">
+<img src="Results/Cl_Cd_polar.png" width="100%">
+
+    </td>
+  </tr>
+</table>
 
 ## Full Report
 📄 [Read the full report here](report/F1_Front_Wing_CFD_Report.pdf)
