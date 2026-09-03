@@ -47,4 +47,6 @@ The lift coefficient increased from 0.551 at 0° to 1.197 at 25°, more than dou
 - The ride height of 75mm was fixed across the entire experiment. This would have been different from the actual car, as it did not account for factors like fuel burn, aerodynamic load and how the track surface may vary. 
  
 ## What I'd Do Next
-[3-4 bullets from our earlier "next steps" list]
+- Transient Simulation - to capture vortex shedding and oscillation beyond stall onset, something steady-state RANS cannot resolve.
+- Ride Height Sensitivity Study - vary the clearance between 50-100mm to find the downforce/ground clearance relationship, understanding the real-world setup conditions and requirements.
+- Full Car Integration - add a simplified car body or open wheels to be able to capture tire wake interaction and how the front wing can influence underbody flow of the car.
