@@ -1,22 +1,20 @@
-A short CFD study in ANSYS of the effects of front wing flap angle on aerodynamic forces, modelled with inspiration from a W16 Mercedes F1 Car.
-
 # CFD Study of an F1 Front Wing, Investigating the Relationship Between Flap Angle & Aerodynamic Forces
 
-[One-paragraph hook: what you did, what you found, the headline number]
+A CFD study of a 1:1 scale F1 front wing, inspired by the 2025 Mercedes W16 car, varying the flap angle from 0° to 25° at 5° increments to find when the angle increase stops paying off. The lift coefficient nearly doubled across the experiment but there was a slight drop off in aerodynamic performance beyond 15° indicating a possibility of aerodynamic stall and flow separation on the wing elements. The project was built in Fusion 360, simulated in ANSYS Fluent, including a mesh independence study to ensure the results were reliable. 
 
 <table>
   <tr>
     <td align="center">
-      <img src="Results/Cl_Cd_polar.png" alt="CL-CD Polar" width="500">
+      <img src="CAD/Final CAD W16 Front Wing Base Model.PNG" alt="Pressure Contours" width="500">
     </td>
     <td align="center">
-      <img src="CAD/Final CAD W16 Front Wing Base Model.PNG" alt="Pressure Contours" width="500">
+      <img src="Results/Cl_Cd_polar.png" alt="CL-CD Polar" width="500">  
     </td>
   </tr>
 </table>
 
 ## Key Finding
-[2-3 sentences: the slope-halving result, framed as the answer to a specific question]
+The lift coefficient increased from 0.551 at 0° to 1.197 at 25°, more than doubling across the experiment. However, the increase was not linear, as beyond 15°, there was a noticeable drop off of about 50% in the lift-curve slope. This was a clear indication of progressive flow separation on the wing elements, rather than a hard stall break. The L/D fell from 3.31 to 2.59 over the same range as well, further confirming that beyond 15°, any addition to the flap angle would bring diminishing returns. 
 
 ## Project Overview
 - Modeled: 1:1 scale multi-element F1 front wing with inspiration from the 2025 W16 Mercedes car in Fusion 360
@@ -44,7 +42,9 @@ A short CFD study in ANSYS of the effects of front wing flap angle on aerodynami
 - `Notes/` — Troubleshooting and debugging log
 
 ## Notes on Method & Limitations
-[2-3 sentences: student license 1M-cell constraint, mesh independence caveat on drag, ride height fixed]
-
+- Mesh resolution was limited by ANSYS Fluent Student License's 1,000,000-cell limit, which resulted in a coarsening of initial refinement targets in the element sizes throughout the mesh, and relying on capture proximity/curvature adaptive sizing rather than manual refinement everywhere.
+- The mesh independence study on the 0° baseline showed downforce converging well, with a 1% change between the two finest meshes, but the drag still showed greater sensitivity at about a 4% change, which meant that the absolute drag/CD values may be a bit more uncertain than the lift values throughout the study.
+- The ride height of 75mm was fixed across the entire experiment. This would have been different from the actual car, as it did not account for factors like fuel burn, aerodynamic load and how the track surface may vary. 
+ 
 ## What I'd Do Next
 [3-4 bullets from our earlier "next steps" list]
