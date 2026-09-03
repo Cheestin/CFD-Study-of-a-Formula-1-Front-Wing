@@ -33,7 +33,7 @@ The lift coefficient increased from 0.551 at 0° to 1.197 at 25°, more than dou
 | 25°         | 3341.50 |	1288.50 |	1.20 |	0.462 |
 
 ## Full Report
-📄 [Read the full report here](Report/CFD Analysis of F1 Front Wing.pdf)
+📄 [Read the full report here](Report/CFD_Analysis_of_F1_Front_Wing.pdf)
 
 ## Repository Structure
 - `CAD/` — Fusion 360 file and per-angle STEP exports
